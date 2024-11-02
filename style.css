@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* ----------{  google font-family CDN  }---------- */
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@400..700&family=Merienda:wght@300..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Salsa&display=swap');
+/* ----------{  Added font family by download  }---------- */
+@font-face {
+  font-family: salsa;
+  src: url(assets/font/salsa/Salsa-Regular.ttf);
+}
+
+/*!----------{  Author      :   Bisakto-Rahi  }----------_*/
+/*!----------{  Create      :   18/10/2024    }-----------_*/
+
+/*todo--------------{  Start Default Style For all  }--------------_*/
+
+/*_----------{  My Color Variables  }----------_*/
+:root {
+  --dark-red: #dc3545;
+  --red: #fc2a1b;
+  --pink: #e83e8c;
+  --purple: #6f42c1;
+  --indigo: #6610f2;
+  --blue: #007bff;
+  --dark-blue: #17a2b8;
+  --light-blue: #0dcaf0;
+  --light-green: #20c997;
+  --green: #28a745;
+  --yellow: #ffc107;
+  --orange: #fd7e14;
+  --highlight-x: #fff3cd;
+  --highlight-y: #ffff5b;
+  --black: #000;
+  --key: #131514;
+  --dark: #343a40;
+  --gray: #6c757d;
+  --white: #fff;
+  --gray-100: #f8f9fa;
+  --gray-200: #e9ecef;
+  --gray-300: #dee2e6;
+  --gray-400: #ced4da;
+  --gray-500: #adb5bd;
+  --gray-600: #6c757d;
+  --gray-700: #495057;
+  --gray-800: #343a40;
+  --gray-900: #212529;
+  --light-border-color: #dee2e6;
+  --dark-border-color: #6c757d;
+  /*_----------{  My Font Variables  }----------_*/
+  --font-1: "Salsa", cursive;
+  --font-2: "Caveat", cursive;
+  --font-3: "Caveat Brush", cursive;
+  --font-4: "Merienda", cursive;
+  --font-5: "Merriweather", serif;
+}
+/*!----------{  Last Update   :   29/10/2024   }----------_*/
+
+/* ----------{  Added font family  }---------- */
+*{
+  font-family: var(--font-1);
+}        /* ----------{  Font weight : 0nly 400 are available  }---------- */
+.sub-heading{
+  font-family: var(--font-3);
+}        /* ----------{  Font weight : 0nly 400 are available  }---------- */
+p{
+  font-family: var(--font-2);
+  font-weight: 500;
+  text-align: justify;
+}       /* ----------{  Font weight : 400 - 700	are available  }---------- */
+.pera{
+  font-family: var(--font-4);
+  font-weight: 600;
+  text-align: justify;
+}       /* ----------{  Font weight : 300 - 900	are available  }---------- */
+.pera-2{
+  font-family: var(--font-5);
+  font-weight: 500;
+  text-align: justify;
+}       /* ----------{  Font weight : 400 - 700	are available  }---------- */
+/*// --------{  Added font family  }----------// */
+/* ----------{  Body style  }---------- */
+*{
+  margin: 0;
+  padding: 0;
+}
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+:hover,
+:active,
+:focus{
+  outline: 0;
+  outline-offset: 0;
+}
+a,
+a:hover{
+  text-decoration: none;
+}
+body{
+  max-width: 100%;
+  font-size: 100%;
+  font-family: var(--my-font-1);
+  line-height: 1.5;
+  color: var(--gray-900);
+  background-color: var(--white);
+  overflow-x: hidden;
+}
+html{
+  scroll-behavior: smooth;
+}
+/*// -------{  Body style  }----------// */
+
+/* ----------{  scrollbar style  }---------- */
+::-webkit-scrollbar{
+  width: 0.625rem;
+}
+::-webkit-scrollbar-track{
+  background-color: #0000ff;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #000;
+}
+/*//----------{  scrollbar style  }---------- //*/
+/*//--------------{  Default Style For all  }--------------//*/
+/* 
+================================================================
+--------------------------{  Doctype.css }----------------------
+================================================================
+*/          /*_----------{  ^_^  }----------_*/
+
+/*todo--------------{  Start Header Section Style  }--------------_*/
+
+
+/*//--------------{  Header Section Style  }--------------//*/
+/*todo--------------{  Start Nav Section Style  }--------------_*/
+/*//--------------{  Nav Section Style  }--------------//*/
+/*todo-------------{  Start Banner Section Style  }---------------_*/
+/*//--------------{  Banner Section Style  }----------------//*/
+/*todo--------------{  Start Extra Section Style  }---------------_*/
+/*//--------------{  Extra Section Style  }-------------//-_*/
+/*todo--------------{  Start Article Section Style  }---------------_*/
+/*//--------------{  Article Section Style  }-------------//-_*/
+/*todo--------------{  Start Aside Section Style  }---------------_*/
+/*//--------------{  Aside Section Style  }---------------//*/
+/*todo--------------{  Start Footer Section Style  }---------------_*/
+
+
+/*//--------------{  Footer Section Style  }--------------//_*/
+/*?----------{  Add Description  }----------?*/
+
+
+/*//----------{  Description  }----------//*/
