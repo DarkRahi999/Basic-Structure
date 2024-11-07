@@ -6,7 +6,6 @@
   font-family: salsa;
   src: url(assets/font/salsa/Salsa-Regular.ttf);
 }
-
 /*!----------{  Author      :   Bisakto-Rahi  }----------_*/
 /*!----------{  Create      :   18/10/2024    }-----------_*/
 
@@ -75,7 +74,6 @@ p{
   font-weight: 500;
   text-align: justify;
 }       /* ----------{  Font weight : 400 - 700	are available  }---------- */
-/*// --------{  Added font family  }----------// */
 /* ----------{  Body style  }---------- */
 *{
   margin: 0;
@@ -108,8 +106,6 @@ body{
 html{
   scroll-behavior: smooth;
 }
-/*// -------{  Body style  }----------// */
-
 /* ----------{  scrollbar style  }---------- */
 ::-webkit-scrollbar{
   width: 0.625rem;
@@ -120,33 +116,23 @@ html{
 ::-webkit-scrollbar-thumb{
   background-color: #000;
 }
-/*//----------{  scrollbar style  }---------- //*/
 /*//--------------{  Default Style For all  }--------------//*/
-/* 
-================================================================
---------------------------{  Doctype.css }----------------------
-================================================================
-*/          /*_----------{  ^_^  }----------_*/
+ 
+/*_----------{  ^_^  }----------_*/
 
 /*todo--------------{  Start Header Section Style  }--------------_*/
 
 
+
+
 /*//--------------{  Header Section Style  }--------------//*/
-/*todo--------------{  Start Nav Section Style  }--------------_*/
-/*//--------------{  Nav Section Style  }--------------//*/
 /*todo-------------{  Start Banner Section Style  }---------------_*/
 /*//--------------{  Banner Section Style  }----------------//*/
 /*todo--------------{  Start Extra Section Style  }---------------_*/
 /*//--------------{  Extra Section Style  }-------------//-_*/
-/*todo--------------{  Start Article Section Style  }---------------_*/
-/*//--------------{  Article Section Style  }-------------//-_*/
-/*todo--------------{  Start Aside Section Style  }---------------_*/
-/*//--------------{  Aside Section Style  }---------------//*/
 /*todo--------------{  Start Footer Section Style  }---------------_*/
 
 
+
+
 /*//--------------{  Footer Section Style  }--------------//_*/
-/*?----------{  Add Description  }----------?*/
-
-
-/*//----------{  Description  }----------//*/
