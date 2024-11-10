@@ -35,18 +35,17 @@
   --gray-900: #212529;
   --light-border-color: #dee2e6;
   --dark-border-color: #6c757d;
-  /*_----------{  My Font Variables  }----------_*/
+/*_----------{  My Font Variables  }----------_*/
   --font-1: "Salsa", cursive;
   --font-2: "Caveat", cursive;
   --font-3: "Caveat Brush", cursive;
   --font-4: "Merienda", cursive;
   --font-5: "Merriweather", serif;
-}       /*!----------{  Last Update   :   29/10/2024   }----------_*/
+}       /*!----------{  Last Update   :   10/11/2024   }----------_*/
 
 /*todo--------------{  Start Default Style For all  }--------------_*/
 /*----------{  IN Phone  }----------_*/
 @media screen and ( max-width: 576px ) {
-
 
 }
 /*----------{  IN Tabulate and I-pad  }----------_*/
@@ -58,4 +57,3 @@
 
 }
 /*//--------------{  Default Style For all  }--------------//*/
-/*_----------{  ^_^  }----------_*/

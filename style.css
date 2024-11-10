@@ -50,9 +50,9 @@
   --font-4: "Merienda", cursive;
   --font-5: "Merriweather", serif;
 }
-/*!----------{  Last Update   :   29/10/2024   }----------_*/
+/*!----------{  Last Update   :   10/11/2024   }----------_*/
 
-/* ----------{  Added font family  }---------- */
+/*Todo----------{  My some Font Classes  }---------- */
 *{
   font-family: var(--font-1);
 }        /* ----------{  Font weight : 0nly 400 are available  }---------- */
@@ -69,12 +69,22 @@ p{
   font-weight: 600;
   text-align: justify;
 }       /* ----------{  Font weight : 300 - 900	are available  }---------- */
+.pera-cen{
+  font-family: var(--font-4);
+  font-weight: 600;
+  text-align: center;
+}
 .pera-2{
   font-family: var(--font-5);
   font-weight: 500;
   text-align: justify;
 }       /* ----------{  Font weight : 400 - 700	are available  }---------- */
-/* ----------{  Body style  }---------- */
+.pera-2-cen{
+  font-family: var(--font-5);
+  font-weight: 500;
+  text-align: center;
+}
+/*todo-------------{  default Style for Full-Website  }---------------_*/
 *{
   margin: 0;
   padding: 0;
@@ -117,9 +127,6 @@ html{
   background-color: #000;
 }
 /*//--------------{  Default Style For all  }--------------//*/
- 
-/*_----------{  ^_^  }----------_*/
-
 /*todo--------------{  Start Header Section Style  }--------------_*/
 
 
