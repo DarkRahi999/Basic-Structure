@@ -3,11 +3,6 @@
 /*I_---------{  google font-family CDN  }---------- */
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@400..700&family=Merienda:wght@300..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Salsa&display=swap');
 
-/*I_----------{  Added font family by download  }---------- */
-@font-face {
-  font-family: salsa;
-  src: url(assets/font/salsa/Salsa-Regular.ttf);
-}
 /*W_----------{  Author      :   Bisakto-Rahi  }----------_*/
 /*W_----------{  Create      :   18/10/2024    }-----------_*/
 
@@ -33,7 +28,7 @@
   --black: #000;
   --dark: #212529;
   --gray: #6c757d;
-  --white: #fff;
+  --white: #ffffff;
   --gray-100: #f8f9fa;
   --gray-200: #e9ecef;
   --gray-300: #dee2e6;
@@ -52,20 +47,20 @@
   --font-4: "Merienda", cursive;
   --font-5: "Merriweather", serif;
 }
-/*R_----------{  Last Update   :   10/11/2024   }----------_*/
+/*R_----------{  Last Update   :   25/11/2024   }----------_*/
 
 /*O_----------{  My some Font Classes  }---------- */
 *{
   font-family: var(--font-1);
-}        /*Y_----------{  Font weight : 0nly 400 are available  }---------- */
-.sub-heading{
-  font-family: var(--font-3);
 }        /*Y_----------{  Font weight : 0nly 400 are available  }---------- */
 p{
   font-family: var(--font-2);
   font-weight: 500;
   text-align: justify;
 }        /*Y_----------{  Font weight : 400 - 700	are available  }---------- */
+.sub-heading{
+  font-family: var(--font-3);
+}        /*Y_----------{  Font weight : 0nly 400 are available  }---------- */
 .pera{
   font-family: var(--font-4);
   font-weight: 600;
@@ -86,7 +81,7 @@ p{
   font-weight: 500;
   text-align: center;
 }
-/*O_-------------{  default Style for Full-Website  }---------------_*/
+/*G_-------------{  default Style for Full-Website  }---------------_*/
 *{
   margin: 0;
   padding: 0;
