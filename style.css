@@ -1,35 +1,37 @@
 @charset "UTF-8";
-/* ----------{  google font-family CDN  }---------- */
+
+/*I_---------{  google font-family CDN  }---------- */
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@400..700&family=Merienda:wght@300..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Salsa&display=swap');
-/* ----------{  Added font family by download  }---------- */
+
+/*I_----------{  Added font family by download  }---------- */
 @font-face {
   font-family: salsa;
   src: url(assets/font/salsa/Salsa-Regular.ttf);
 }
-/*!----------{  Author      :   Bisakto-Rahi  }----------_*/
-/*!----------{  Create      :   18/10/2024    }-----------_*/
+/*W_----------{  Author      :   Bisakto-Rahi  }----------_*/
+/*W_----------{  Create      :   18/10/2024    }-----------_*/
 
-/*todo--------------{  Start Default Style For all  }--------------_*/
-
-/*_----------{  My Color Variables  }----------_*/
+/*G_--------------{  Start Default Style For all  }--------------_*/
+/*-_----------{  My Color Variables  }----------_*/
 :root {
-  --dark-red: #dc3545;
+  --danger: #dc3545;
   --red: #fc2a1b;
   --pink: #e83e8c;
   --purple: #6f42c1;
   --indigo: #6610f2;
-  --blue: #007bff;
+  --primary: #0d6efd;
+  --blue: #008cff;
   --dark-blue: #17a2b8;
   --light-blue: #0dcaf0;
   --light-green: #20c997;
-  --green: #28a745;
+  --success: #198754;
+  --light-green: #28a745;
   --yellow: #ffc107;
   --orange: #fd7e14;
   --highlight-x: #fff3cd;
   --highlight-y: #ffff5b;
   --black: #000;
-  --key: #131514;
-  --dark: #343a40;
+  --dark: #212529;
   --gray: #6c757d;
   --white: #fff;
   --gray-100: #f8f9fa;
@@ -43,32 +45,32 @@
   --gray-900: #212529;
   --light-border-color: #dee2e6;
   --dark-border-color: #6c757d;
-  /*_----------{  My Font Variables  }----------_*/
+  /*-_----------{  My Font Variables  }----------_*/
   --font-1: "Salsa", cursive;
   --font-2: "Caveat", cursive;
   --font-3: "Caveat Brush", cursive;
   --font-4: "Merienda", cursive;
   --font-5: "Merriweather", serif;
 }
-/*!----------{  Last Update   :   10/11/2024   }----------_*/
+/*R_----------{  Last Update   :   10/11/2024   }----------_*/
 
-/*Todo----------{  My some Font Classes  }---------- */
+/*O_----------{  My some Font Classes  }---------- */
 *{
   font-family: var(--font-1);
-}        /* ----------{  Font weight : 0nly 400 are available  }---------- */
+}        /*Y_----------{  Font weight : 0nly 400 are available  }---------- */
 .sub-heading{
   font-family: var(--font-3);
-}        /* ----------{  Font weight : 0nly 400 are available  }---------- */
+}        /*Y_----------{  Font weight : 0nly 400 are available  }---------- */
 p{
   font-family: var(--font-2);
   font-weight: 500;
   text-align: justify;
-}       /* ----------{  Font weight : 400 - 700	are available  }---------- */
+}        /*Y_----------{  Font weight : 400 - 700	are available  }---------- */
 .pera{
   font-family: var(--font-4);
   font-weight: 600;
   text-align: justify;
-}       /* ----------{  Font weight : 300 - 900	are available  }---------- */
+}       /*Y_----------{  Font weight : 300 - 900	are available  }---------- */
 .pera-cen{
   font-family: var(--font-4);
   font-weight: 600;
@@ -78,13 +80,13 @@ p{
   font-family: var(--font-5);
   font-weight: 500;
   text-align: justify;
-}       /* ----------{  Font weight : 400 - 700	are available  }---------- */
+}       /*Y_----------{  Font weight : 400 - 700	are available  }---------- */
 .pera-2-cen{
   font-family: var(--font-5);
   font-weight: 500;
   text-align: center;
 }
-/*todo-------------{  default Style for Full-Website  }---------------_*/
+/*O_-------------{  default Style for Full-Website  }---------------_*/
 *{
   margin: 0;
   padding: 0;
@@ -116,7 +118,7 @@ body{
 html{
   scroll-behavior: smooth;
 }
-/* ----------{  scrollbar style  }---------- */
+/*K_----------{  scrollbar style  }---------- */
 ::-webkit-scrollbar{
   width: 0.625rem;
 }
@@ -126,20 +128,26 @@ html{
 ::-webkit-scrollbar-thumb{
   background-color: #000;
 }
-/*//--------------{  Default Style For all  }--------------//*/
-/*todo--------------{  Start Header Section Style  }--------------_*/
+/*//_--------------{  Default Style For all  }--------------_*/
+/*G_--------------{  Start Header Section Style  }--------------_*/
 
 
 
 
-/*//--------------{  Header Section Style  }--------------//*/
-/*todo-------------{  Start Banner Section Style  }---------------_*/
-/*//--------------{  Banner Section Style  }----------------//*/
-/*todo--------------{  Start Extra Section Style  }---------------_*/
-/*//--------------{  Extra Section Style  }-------------//-_*/
-/*todo--------------{  Start Footer Section Style  }---------------_*/
+/*//_--------------{  Header Section Style  }--------------_*/
+/*G_-------------{  Start Banner Section Style  }---------------_*/
+/*//_--------------{  Banner Section Style  }----------------_*/
+/*G_--------------{  Start Extra Section Style  }---------------_*/
+/*//_--------------{  Extra Section Style  }-------------_*/
+/*G_--------------{  Start Footer Section Style  }---------------_*/
 
 
 
 
-/*//--------------{  Footer Section Style  }--------------//_*/
+/*//_--------------{  Footer Section Style  }--------------_*/
+/*K_--------------{  Add description  }--------------_*/
+/* 
+
+Y	          Customize the design, how You Wont to and looks beautiful !! 
+
+*/
