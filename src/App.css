@@ -4,11 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@400..700&family=Merienda:wght@300..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Salsa&display=swap');
 
 /*W_----------{  Author      :   Bisakto-Rahi  }----------_*/
-/*W_----------{  Create      :   18/10/2024    }-----------_*/
+/*W_----------{  Create      :   06/03/2025    }-----------_*/
 
 /*G_--------------{  Start Default Style For all  }--------------_*/
-/*-_----------{  My Color Variables  }----------_*/
 :root {
+  /*-_----------{  My Color Variables  }----------_*/
   --danger: #dc3545;
   --red: #fc2a1b;
   --pink: #e83e8c;
@@ -47,7 +47,7 @@
   --font-4: "Merienda", cursive;
   --font-5: "Merriweather", serif;
 }
-/*R_----------{  Last Update   :   25/11/2024   }----------_*/
+/*R_----------{  Last Update   :   06/03/2025   }----------_*/
 
 /*O_----------{  My Common class for Font  }---------- */
 *{
@@ -95,12 +95,12 @@ a:hover{
   text-decoration: none;
 }
 body{
-  max-width: 1600px;
   font-size: 100%;
   font-family: var(--my-font-1);
   line-height: 1.5;
   color: var(--gray-900);
   background-color: var(--white);
+  margin: 0 auto;
   overflow-x: hidden;
 }
 html{
@@ -117,16 +117,14 @@ html{
   background-color: #000;
 }
 /*//_--------------{  Default Style For all  }--------------_*/
-/*G_--------------{  Start Header Section Style  }--------------_*/
+/*G_--------------{  Start Style  }--------------_*/
+h2{
+  font-size: 50px;
+  margin-top: 30px;
+  color: var(--black);
+  text-align: center;
+}
 
 
 
-
-/*//_--------------{  Header Section Style  }--------------_*/
-/*G_--------------{  Start Extra Section Style  }---------------_*/
-/*//_--------------{  Extra Section Style  }-------------_*/
-/*G_--------------{  Start Footer Section Style  }---------------_*/
-
-
-
-/*//_--------------{  Footer Section Style  }--------------_*/
+/*//_--------------{ End Style  }----------------_*/
