@@ -1,4 +1,4 @@
-import React from 'react'
+import { StrictMode } from 'react'
 import {Body} from './components'
 import './App.css'
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import { StrictMode } from 'react'
 export function Body(){
     return(
         <div className="div">
